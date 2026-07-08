@@ -1,0 +1,6 @@
+<div data-controller="practice" data-practice-word-value="<%= @word.text %>" data-practice-id-value="<%= @word.id %>">
+  <h1 class="text-3xl font-bold mb-6 text-center">Spelling Practice</h1>
+  <button data-action="click->practice#speak"class="bg-blue-600 text-white px-4 py-2 rounded">🔊 Hear Word</button>
+  <input type="text"placeholder="Type the spelling"class="border w-full mt-6 rounded p-3"data-practice-target="answer"><button data-action="click->practice#submit"class="bg-green-600 text-white px-4 py-2 rounded mt-4 w-full">Check</button>
+  <p class="mt-6 text-xl font-semibold"data-practice-target="result"></p>
+</div>
