@@ -12,6 +12,14 @@
 
     Also documented in dotfiles
 
+- Add words
+
+    ```
+    touch db/words.txt
+    ```
+
+    Open db/words.txt and add whatever words you want
+
 - To run the project
 
     ```
