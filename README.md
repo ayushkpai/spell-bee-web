@@ -15,10 +15,10 @@
 - Add words
 
     ```
-    touch db/words.txt
+    touch ~/.config/spell_bee/words.txt
     ```
 
-    Open db/words.txt and add whatever words you want
+    Open ~/.config/spell_bee/words.txt and add whatever words you want
 
 - To run the project
 
